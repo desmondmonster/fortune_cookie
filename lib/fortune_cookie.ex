@@ -176,10 +176,10 @@ defmodule FortuneCookie do
   """
   def yes_or_no? do
     {_, _, ms} = :os.timestamp()
+
     case Integer.is_even(ms) do
       true -> :yes
       false -> :no
     end
   end
-
 end

@@ -34,4 +34,3 @@ defmodule FortuneCookie.Dice do
     42
   end
 end
-
